@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background: #000;
+}
+
+.header {
+    grid-area: h;
+}
+
+.datosContainer {
+    grid-area: i;
+}
+
+.plantillaContainer {
+    grid-area: p;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    "h h h"
+    "i p p"
+    "i p p";
+    overflow-x: hidden;
+}

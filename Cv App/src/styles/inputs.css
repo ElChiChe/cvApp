@@ -1,0 +1,53 @@
+.datosContainer {
+    background-color: #ffd803;
+    width: 250px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.datos {
+    width: 250px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.tituloDato {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.tituloDato i {
+    position: absolute;
+    right: 15px;
+}
+
+.datos input {
+    width: 100%;
+    height: 2rem;
+    margin: 5px 0;
+    padding: 2px;
+}
+
+.datos div {
+    display: none;
+}
+
+.datos .general {
+    display: block;
+}
+
+.datos .educacion {
+    display: block;
+}
+
+.datos .laborales {
+    display: block;
+}
